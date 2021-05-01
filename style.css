@@ -1,0 +1,213 @@
+body{
+  width: 80%; margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+table,th,td{border: 2px solid black;
+  border-collapse: collapse;
+  margin-left:auto; 
+  margin-right:auto;
+        }
+  
+th{
+  background-color: rgba(56, 51, 51, 0.185);
+}
+
+.head td{
+  background-color: rgba(0, 0, 0, 0.267);
+  font-weight: bold;
+  font-size: 18px;
+  padding-left:5px;
+}
+  
+    .upper{text-transform: uppercase; text-align: center; font-size: 20px;}
+    .cap{text-transform: capitalize; text-align: center;font-size: 20px;}
+    .hg{height: 30px; }
+    .exp{text-transform: capitalize;
+           text-align: right;
+           font-size: 22px;
+           height: 35px;
+           font-weight: bold;
+           padding-right: 20px;
+          }
+    
+     /*input field*/
+     
+     #start,#end{
+       padding-left:5px;
+     }
+     .address{
+       border: none;
+       resize: none;
+       width: 98%;
+       font-size: 16px;
+     }
+
+     .address:hover,.address:focus,
+     .medium:hover,.medium:focus
+     .small:hover,.small:focus
+     {
+       background-color: rgba(255, 255, 0, 0.452);
+     }
+
+     .big{
+         height:180px;
+     }
+
+    .medium{
+        height:90px;
+        font-size: 20px;
+    }
+    
+    .small{
+      height: 20px;
+      color:rgb(40, 40, 66);
+      font-size: 16px;
+      padding-left: 5px;
+    }
+    .label{
+      font-size: 20px;
+      font-weight: bold;
+      text-align: right;
+      background-color: rgba(56, 51, 51, 0.185);
+      padding-right: 5px;
+    }
+   
+    /*date input*/
+    #start{border: none;}
+    #end{border: none;}
+
+    /*drag & drop area*/
+    .drag-area{
+      
+      height: 180px;
+      grid-area:image;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+       }
+       .drag-area .icon{
+          font-size: 50px;
+          color: rgb(14, 1, 1);
+          align-content: center;
+        }
+        .drag-area header{
+          font-size: 20;
+          font-weight: 500;
+          color: rgb(12, 0, 0);
+         
+        }
+
+        .drag-area span{
+          font-size: 20px;
+          font-weight: 500;
+          color: rgb(0, 0, 0);
+         
+        }
+
+        .drag-area button{
+          padding: 10px 10px;
+          font-size: 15px;
+          font-weight: 500;
+          border: none;
+          outline: none;
+          background: rgb(82, 72, 72);
+          color: #f0f0f0;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+
+        .drag-area img{
+          width: 70%;
+          padding-top: 50px;
+          object-fit: cover;
+      }
+      
+      #download{
+        color:white;
+        font-size:20px;
+        background-color: rgb(26, 137, 211);
+        padding:10px;
+        margin: 10px;
+        margin-right: 0px;
+        border-radius:5px;
+      
+      }
+      
+      .but{
+       text-align: right;
+      }
+      
+
+
+      .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:"image address";
+      }
+
+      .intext{
+        grid-area:address;
+        border-left: solid black 2px;
+      }
+
+/*===========================================all product deatails==========================================*/
+ .item-row textarea { border: none; resize: none; font-size: 18px; text-align: center;}
+ .item-row td{text-align: center  ;}
+ .item-row textarea:hover,textarea:focus{
+  background-color: rgba(255, 255, 0, 0.452);
+ }
+
+ .gstamount{text-align: center;}
+
+.no{width: 80%;}
+.description{width: 98%;}
+.hsn{width: 96%;}
+.cost{width: 96%}
+.qty{width: 96%; }
+.gstper{width: 90%; }
+.gstamount{width: 96%;}
+
+td.amount{text-align:center ;}
+
+.desc{width: 300px;}
+.uno{width: 120px;}
+.rate{width: 100px; }
+.qun{width: 50px}
+.price,.gstamount,.gsttotal,.gst,.Total{font-size: 20px;  text-align: center;}
+.per{width:30px;}
+.amount{width:60px;}
+
+.delete-wpr { position: relative; }
+.delete { display: block; 
+  color: #000; 
+  text-decoration: none;
+  position: absolute; 
+  background: #EEEEEE; 
+  font-weight: bold; 
+  padding: 0px 3px; 
+  border: 1px solid; 
+  top: -6px; left: -22px; 
+  font-family: Verdana; 
+  font-size: 12px; 
+}
+
+/*final*/
+.final{
+  float:right;
+}
+.final td{
+  width:280px;
+  text-align: center;
+  height: 40px;
+}
+td.space{
+  width: 900px;
+  font-size: 25px;
+  font-family:monospace;
+  border-top: none;
+  padding-top: 10px;
+ }
+
+ td.bless{border-bottom: none; font-size:22px; text-align: left; font-weight: bold;}
